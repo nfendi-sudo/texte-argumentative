@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Texte Argumentatif | Prof Noufel</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --pink-light: #fff0f5;
+            --pink-main: #ff69b4;
+            --pink-dark: #c71585;
+            --flower-gold: #ffd700;
+        }
+        body {
+            font-family: 'Cairo', sans-serif;
+            background-color: var(--pink-light);
+            background-image: url('https://www.transparenttextures.com/patterns/pinstriped-suit.png'); /* زخرفة خفيفة */
+            margin: 0; padding: 0; color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #ff69b4 0%, #ffb6c1 100%);
+            color: white; padding: 50px 20px; text-align: center;
+            border-bottom: 5px solid var(--pink-dark);
+            position: relative; overflow: hidden;
+        }
+        /* إضافة لمسة الزهور */
+        header::before {
+            content: '🌸 🌺 🌷'; font-size: 2rem; position: absolute; top: 10px; left: 10px; opacity: 0.6;
+        }
+        header::after {
+            content: '🌹 🌻 🌼'; font-size: 2rem; position: absolute; bottom: 10px; right: 10px; opacity: 0.6;
+        }
+
+        .container { max-width: 1100px; margin: 30px auto; padding: 20px; }
+        
+        .section-card {
+            background: white; border-radius: 20px; padding: 35px; margin-bottom: 35px;
+            box-shadow: 0 10px 20px rgba(255, 105, 180, 0.15);
+            border: 2px solid #ffc0cb; position: relative;
+        }
+        .section-card h2 {
+            color: var(--pink-dark); font-size: 2rem; border-right: 8px solid var(--pink-main);
+            padding-right: 15px; margin-top: 0; display: inline-block;
+        }
+
+        .content-box {
+            background: #fffafa; border: 1px solid #ffe4e1;
+            padding: 20px; border-radius: 15px; margin-top: 20px;
+        }
+
+        .translate-box { color: #d81b60; font-weight: bold; border-bottom: 1px dashed; }
+        
+        /* جداول الأسئلة */
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; background: white; }
+        th { background-color: var(--pink-main); color: white; padding: 15px; }
+        td { border: 1px solid #ffecf2; padding: 12px; text-align: center; }
+
+        .compte-rendu {
+            background: #fff0f5; border: 3px double var(--pink-dark);
+            padding: 30px; border-radius: 20px; font-family: 'Courier New', monospace;
+            direction: ltr; text-align: left; line-height: 1.6;
+        }
+
+        .flower-icon { color: var(--pink-main); margin-left: 10px; }
+        
+        .btn-action {
+            background: var(--pink-dark); color: white; border: none;
+            padding: 15px 40px; border-radius: 50px; font-size: 1.2rem;
+            cursor: pointer; transition: 0.3s; font-weight: bold; box-shadow: 0 4px 15px rgba(199, 21, 133, 0.3);
+        }
+        .btn-action:hover { transform: scale(1.05); background: var(--pink-main); }
+        
+        footer { text-align: center; padding: 40px; color: var(--pink-dark); font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🌸 موسوعة النص الحجاجي الشاملة 🌸</h1>
+    <p>بإشراف الأستاذ نوفل - رفيقتكم نحو التفوق في البكالوريا</p>
+</header>
+
+<div class="container">
+
+    <div class="section-card">
+        <h2><span class="flower-icon">🌷</span> 1. أنواع هيكلة النص (Les Plans)</h2>
+        <div class="content-box">
+            <p>يجب أن يعرف التلميذ أن النص الحجاجي له شكلان أساسيان:</p>
+            <ul>
+                <li><strong>Plan Accumulatif (تراكمي):</strong> يدافع عن <span class="translate-box">رأي واحد فقط</span>.
+                    <ul>
+                        <li>Plaidoyer: الدفاع (مع).</li>
+                        <li>Réquisitoire: الهجوم (ضد).</li>
+                    </ul>
+                </li>
+                <li><strong>Plan Dialectique (جدلي):</strong> يوجد <span class="translate-box">صراع بين رأيين</span>.
+                    <ul>
+                        <li>Thèse (مؤيد) + Antithèse (معارض).</li>
+                        <li>كلمة السر هنا هي <strong>La Transition</strong> (رابط الانتقال مثل Mais) في وسط النص.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section-card">
+        <h2><span class="flower-icon">🌹</span> 2. قاموس الكلمات المساعدة (للفهم بدون ترجمة)</h2>
+        <p>هذه الكلمات إذا وجدتها، فأنت تفهم ماذا يحدث في النص:</p>
+        <table>
+            <tr>
+                <th>الكلمة الفرنسية</th>
+                <th>المعنى بالعربي</th>
+                <th>مهمة التلميذ</th>
+            </tr>
+            <tr>
+                <td>Partisans / Défenseurs</td>
+                <td class="translate-box">المؤيدون</td>
+                <td>أصحاب الرأي (نعم)</td>
+            </tr>
+            <tr>
+                <td>Adversaires / Détracteurs</td>
+                <td class="translate-box">المعارضون</td>
+                <td>أصحاب الرأي (لا)</td>
+            </tr>
+            <tr>
+                <td>Arguments</td>
+                <td class="translate-box">الحجج</td>
+                <td>الأدلة التي تبدأ بـ D'abord</td>
+            </tr>
+            <tr>
+                <td>Avantages / Inconvénients</td>
+                <td class="translate-box">الإيجابيات / السلبيات</td>
+                <td>تحديد نوع الحجة</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="section-card">
+        <h2><span class="flower-icon">🌻</span> 3. منهجية الإجابة على الأسئلة</h2>
+        <div class="content-box">
+            <p><strong>السؤال:</strong> "L'auteur est-il présent dans le texte ?"</p>
+            <p><strong>الإجابة:</strong> Oui, l'auteur est <span class="translate-box">Subjectif</span> (حاضر).<br>
+            <strong>الدليل (Indices):</strong> استخرج Je, Nous, Mon أو صفات مثل (Important, Utile).</p>
+            <hr>
+            <p><strong>السؤال:</strong> "À qui renvoie le pronom (On) ?"</p>
+            <p><strong>الإجابة:</strong> غالباً تعود على الكاتب (L'auteur) أو المجتمع أو الناس عامة.</p>
+        </div>
+    </div>
+
+    <div class="section-card">
+        <h2><span class="flower-icon">🌼</span> 4. القواعد الذهبية (Grammaire)</h2>
+        <div class="grid">
+            <p><strong>1. التضاد (L'opposition):</strong> ابحث عن Mais, Pourtant, Cependant.</p>
+            <p><strong>2. التنازل (La concession):</strong> ابحث عن Bien que, Malgré.</p>
+            <p><strong>3. الشرط (Le conditionnel):</strong> يُستخدم للتعبير عن معلومة غير مؤكدة (Incertitude).</p>
+        </div>
+    </div>
+
+    <div class="section-card">
+        <h2><span class="flower-icon">🌺</span> 5. التقرير النقدي (Compte Rendu Critique)</h2>
+        <p>منهجية الأستاذة كاتية سبكي ومنير شبوة (يحفظه التلميذ كما هو):</p>
+        <div class="compte-rendu">
+            <strong>Introduction:</strong><br>
+            Ce texte argumentatif intitulé "[Titre]", écrit par [Auteur], extrait de [Source], paru le [Date]. L'auteur traite le thème de [Sujet]. Il adopte une visée argumentative.<br><br>
+            <strong>Développement:</strong><br>
+            L'auteur commence par exposer sa thèse (Opinion). Pour convaincre les lecteurs, il avance les arguments suivants : D'abord... Ensuite... Enfin...<br><br>
+            <strong>Critique (Pour les Langues):</strong><br>
+            À mon avis, l'auteur a utilisé un lexique simple et des arguments solides pour défendre sa position.
+        </div>
+    </div>
+
+    <div style="text-align: center;">
+        <button class="btn-action" onclick="window.print()">📥 تحميل الحقيبة الوردية للتفوق (PDF)</button>
+    </div>
+
+</div>
+
+<footer>
+    <p>🌸 مع الأستاذ نوفل.. النجاح زهوري وجميل 🌸</p>
+    <p>2026 © جميع الحقوق محفوظة لطلبتنا الأعزاء</p>
+</footer>
+
+</body>
+</html>
