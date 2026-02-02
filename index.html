@@ -10,7 +10,6 @@
             --pink-light: #fff0f5;
             --pink-main: #ff69b4;
             --pink-dark: #c71585;
-            --flower-gold: #ffd700;
         }
         body {
             font-family: 'Cairo', sans-serif;
@@ -18,47 +17,37 @@
             margin: 0; padding: 0; color: #333;
         }
         header {
+            background: #ff69b4;
             background: linear-gradient(135deg, #ff69b4 0%, #ffb6c1 100%);
             color: white; padding: 50px 20px; text-align: center;
             border-bottom: 5px solid var(--pink-dark);
         }
-
-        .container { max-width: 1100px; margin: 30px auto; padding: 20px; }
-        
+        .container { max-width: 1000px; margin: 30px auto; padding: 20px; }
         .section-card {
             background: white; border-radius: 20px; padding: 35px; margin-bottom: 35px;
             box-shadow: 0 10px 20px rgba(255, 105, 180, 0.15);
-            border: 2px solid #ffc0cb;
+            border-right: 10px solid var(--pink-main);
         }
-        .section-card h2 {
-            color: var(--pink-dark); font-size: 2rem; border-right: 8px solid var(--pink-main);
-            padding-right: 15px; margin-top: 0; display: inline-block;
-        }
-
+        h2 { color: var(--pink-dark); font-size: 2rem; margin-top: 0; }
         .content-box {
             background: #fffafa; border: 1px solid #ffe4e1;
             padding: 20px; border-radius: 15px; margin-top: 20px;
         }
-
         .translate-box { color: #d81b60; font-weight: bold; border-bottom: 1px dashed; }
-        
         table { width: 100%; border-collapse: collapse; margin-top: 20px; background: white; }
         th { background-color: var(--pink-main); color: white; padding: 15px; }
         td { border: 1px solid #ffecf2; padding: 12px; text-align: center; }
-
         .compte-rendu {
-            background: #fff0f5; border: 3px double var(--pink-dark);
+            background: #fffafa; border: 3px double var(--pink-dark);
             padding: 30px; border-radius: 20px; font-family: 'Courier New', monospace;
             direction: ltr; text-align: left; line-height: 1.6;
         }
-
         .btn-action {
             background: var(--pink-dark); color: white; border: none;
             padding: 15px 40px; border-radius: 50px; font-size: 1.2rem;
             cursor: pointer; transition: 0.3s; font-weight: bold;
+            display: block; margin: 20px auto;
         }
-        .btn-action:hover { transform: scale(1.05); background: var(--pink-main); }
-        
         footer { text-align: center; padding: 40px; color: var(--pink-dark); font-weight: bold; }
     </style>
 </head>
@@ -115,11 +104,6 @@
                 <td class="translate-box">الحجج</td>
                 <td>الأدلة التي تبدأ بـ D'abord</td>
             </tr>
-            <tr>
-                <td>Avantages / Inconvénients</td>
-                <td class="translate-box">الإيجابيات / السلبيات</td>
-                <td>تحديد نوع الحجة</td>
-            </tr>
         </table>
     </div>
 
@@ -129,9 +113,6 @@
             <p><strong>السؤال:</strong> "L'auteur est-il présent dans le texte ?"</p>
             <p><strong>الإجابة:</strong> Oui, l'auteur est <span class="translate-box">Subjectif</span> (حاضر).<br>
             <strong>الدليل (Indices):</strong> استخرج Je, Nous, Mon أو صفات مثل (Important, Utile).</p>
-            <hr>
-            <p><strong>السؤال:</strong> "À qui renvoie le pronom (On) ?"</p>
-            <p><strong>الإجابة:</strong> غالباً تعود على الكاتب (L'auteur) أو المجتمع أو الناس عامة.</p>
         </div>
     </div>
 
@@ -140,7 +121,7 @@
         <div class="content-box">
             <p><strong>1. التضاد (L'opposition):</strong> ابحث عن Mais, Pourtant, Cependant.</p>
             <p><strong>2. التنازل (La concession):</strong> ابحث عن Bien que, Malgré.</p>
-            <p><strong>3. الشرط (Le conditionnel):</strong> يُستخدم للتعبير عن معلومة غير مؤكدة (Incertitude).</p>
+            <p><strong>3. الشرط (Le conditionnel):</strong> يُستخدم للتعبير عن معلومة غير مؤكدة.</p>
         </div>
     </div>
 
@@ -157,9 +138,7 @@
         </div>
     </div>
 
-    <div style="text-align: center;">
-        <button class="btn-action" onclick="window.print()">تحميل الحقيبة التعليمية (PDF)</button>
-    </div>
+    <button class="btn-action" onclick="window.print()">تحميل الحقيبة التعليمية (PDF)</button>
 
 </div>
 
